@@ -17,7 +17,7 @@ eventEmitter.addListener('connection', listener1);
 // 绑定 connection 事件，处理函数为 listener2
 eventEmitter.on('connection', listener2);
 
-var eventListeners = require('events').EventEmitter.listenerCount('connection');
+var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
 //var eventListeners = require('events').EventEmitter.listenerCount('connection'); //这个的结果是0
 //var eventListeners = require('events').EventEmitter.listenerCount('connection'); //这个结果是0
 console.log(eventListeners + " 个监听器监听连接事件。");
