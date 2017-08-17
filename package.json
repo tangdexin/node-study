@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tangdexin/node-study/issues"
   },
-  "homepage": "https://github.com/tangdexin/node-study#readme"
+  "homepage": "https://github.com/tangdexin/node-study#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
