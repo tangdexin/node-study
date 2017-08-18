@@ -6,5 +6,4 @@ fs.readFile('input.txt',function(err,data){
     }
     console.log('异步读取：' + data);
 })
-
 console.log('finished!');
