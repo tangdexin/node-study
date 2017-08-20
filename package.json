@@ -18,5 +18,8 @@
   "homepage": "https://github.com/tangdexin/node-study#readme",
   "dependencies": {
     "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "express-generator": "^4.15.0"
   }
 }
